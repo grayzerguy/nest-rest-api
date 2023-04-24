@@ -1,3 +1,4 @@
+// this is the controller file for the app
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
