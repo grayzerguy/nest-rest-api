@@ -1,10 +1,10 @@
 /* eslint-disable prettier/prettier */
- class CreateItemDto {
+ export class CreateItemDto {
   readonly name: string;
   readonly description: string;
   readonly qty: number;
 }
 
 
-export default  CreateItemDto 
+
     
