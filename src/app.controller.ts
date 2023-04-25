@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // this is the controller file for the app
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
@@ -10,4 +11,6 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+
 }
+
